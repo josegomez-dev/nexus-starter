@@ -11,6 +11,18 @@ export interface StellarWalletAccount {
   isConnected: boolean
 }
 
+interface StellarWallet {
+  request: (params: { method: string }) => Promise<string>
+}
+
+interface AlbedoWallet {
+  publicKey: (params: { token: string }) => Promise<{ pubkey: string }>
+}
+
+interface XBullWallet {
+  request: (params: { method: string }) => Promise<string>
+}
+
 interface WalletContextType {
   account: StellarWalletAccount | null
   isConnected: boolean
@@ -69,7 +81,7 @@ export const WalletProvider: React.FC<{ children: React.ReactNode }> = ({ childr
       throw new Error('Freighter wallet not found. Please install Freighter extension.')
     }
 
-    const stellar = (window as any).stellar
+    const stellar = (window as { stellar: StellarWallet }).stellar
     
     try {
       // Request connection
@@ -98,7 +110,7 @@ export const WalletProvider: React.FC<{ children: React.ReactNode }> = ({ childr
       throw new Error('Albedo wallet not found. Please install Albedo extension.')
     }
 
-    const albedo = (window as any).albedo
+    const albedo = (window as { albedo: AlbedoWallet }).albedo
     
     try {
       // Request connection
@@ -127,7 +139,7 @@ export const WalletProvider: React.FC<{ children: React.ReactNode }> = ({ childr
       throw new Error('xBull wallet not found. Please install xBull extension.')
     }
 
-    const xBull = (window as any).xBull
+    const xBull = (window as { xBull: XBullWallet }).xBull
     
     try {
       // Request connection
@@ -186,7 +198,7 @@ export const WalletProvider: React.FC<{ children: React.ReactNode }> = ({ childr
     } finally {
       setIsLoading(false)
     }
-  }, [network])
+  }, [network, connectFreighter, connectAlbedo, connectXBull])
 
   const disconnect = useCallback(() => {
     setAccount(null)

@@ -18,7 +18,7 @@ export default function UnicornStarterPage() {
           <div className="text-8xl mb-6">🦄</div>
           <h1 className="text-6xl font-bold mb-6">Unicorn Starter</h1>
           <p className="text-xl text-gray-300 max-w-3xl mx-auto mb-8">
-            Build innovative "unicorn" applications with cutting-edge features and disruptive technology
+            Build innovative &quot;unicorn&quot; applications with cutting-edge features and disruptive technology
           </p>
           <div className="flex justify-center gap-4">
             <div className="relative">

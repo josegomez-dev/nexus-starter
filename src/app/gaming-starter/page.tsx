@@ -85,7 +85,7 @@ const { createTournament, distributePrizes, resolveDispute } = useTrustlessWork(
               <div>
                 <h3 className="text-xl font-bold mb-4">2. NFT Integration</h3>
                 <p className="text-gray-300 mb-4">
-                  Integrate with Stellar's NFT standard for in-game assets and marketplace functionality.
+                  Integrate with Stellar&apos;s NFT standard for in-game assets and marketplace functionality.
                 </p>
                 <div className="bg-gray-800 rounded-lg p-4">
                   <code className="text-sm text-green-400">

@@ -1,6 +1,6 @@
 'use client'
 
-import React, { useState } from 'react'
+import React from 'react'
 import { Button } from '@/shared/components/ui/Button'
 import Link from 'next/link'
 
@@ -202,8 +202,8 @@ export default function HomePage() {
                   </div>
                 </div>
               </div>
-            </div> 
-                    </div> 
+            </div>
+          </div> 
         </section>
       </main>
 
@@ -275,3 +275,4 @@ export default function HomePage() {
       </footer>
     </div>
   )
+}
