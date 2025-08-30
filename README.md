@@ -81,7 +81,7 @@ Build innovative "unicorn" applications with cutting-edge features and disruptiv
 
 1. **Clone the showcase repository**
    ```bash
-   git clone https://github.com/your-org/nexus-starter.git
+   git clone https://github.com/josegomez-dev/nexus-starter.git
    cd nexus-starter
    ```
    
@@ -217,10 +217,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## 🌟 Support & Community
 
-- **Discord**: [Join our community](https://discord.gg/nexus-starter)
-- **Documentation**: [Read the docs](https://docs.nexus-starter.com)
-- **Issues**: [Report bugs](https://github.com/your-org/nexus-starter/issues)
-- **Discussions**: [Share ideas](https://github.com/your-org/nexus-starter/discussions)
+- **Discord**: [Join our community](https://discord.gg/nexus-starter) 🚧
+- **Documentation**: [Read the docs](https://docs.nexus-starter.com) 🚧
+- **Issues**: [Report bugs](https://github.com/josegomez-dev/nexus-starter/issues)
+- **Discussions**: [Share ideas](https://github.com/josegomez-dev/nexus-starter/discussions)
 
 ### 🤝 Trustless Work Community
 - **GitHub**: [@Trustless-Work](https://github.com/Trustless-Work) - 13+ open-source repositories
