@@ -61,17 +61,12 @@ Build innovative "unicorn" applications with cutting-edge features and disruptiv
 > **🚧 Note**: The individual starter repositories are currently under development and will be available soon!
 
 - ✅ **Nexus Starter Showcase** - Ready to explore and learn
-- ✅ **Nexus Project (Live Demo)** - [trustless-poc.vercel.app](https://trustless-poc.vercel.app/) - Fully working!
+- ✅ **Nexus Project (Live Demo)** - [trustless-poc.vercel.app](https://trustless-poc.vercel.app/)
 - 🚧 **DeFi Starter Repository** - Coming Soon
 - 🚧 **Gaming Starter Repository** - Coming Soon  
 - 🚧 **Unicorn Starter Repository** - Coming Soon
 
-### 🔗 Repository URLs (Coming Soon)
-```
-🚧 https://github.com/stellar-nexus/defi-starter     - DeFi Starter Template
-🚧 https://github.com/stellar-nexus/gaming-starter   - Gaming Starter Template  
-🚧 https://github.com/stellar-nexus/unicorn-starter  - Unicorn Starter Template
-```
+
 
 > **💡 Pro Tip**: While waiting for the starter repositories, you can start building with [Trustless Work](https://www.trustlesswork.com/) directly! They offer open-source stablecoin escrow templates, API integration, and a backoffice dApp for testing. Check out their [GitHub organization](https://github.com/Trustless-Work) for 13+ open-source repositories ready to use!
 
@@ -90,10 +85,7 @@ Build innovative "unicorn" applications with cutting-edge features and disruptiv
    cd nexus-starter
    ```
    
-   > **📋 Note**: This is the showcase repository. Individual starter repositories will be available at:
-   > - 🚧 `https://github.com/stellar-nexus/defi-starter` - Coming Soon
-   > - 🚧 `https://github.com/stellar-nexus/gaming-starter` - Coming Soon  
-   > - 🚧 `https://github.com/stellar-nexus/unicorn-starter` - Coming Soon
+   > **📋 Note**: This is the showcase repository. Individual starter repositories will be available soon!
 
 2. **Install dependencies**
    ```bash
